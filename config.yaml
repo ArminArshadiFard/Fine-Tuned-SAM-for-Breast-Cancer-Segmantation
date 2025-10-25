@@ -1,0 +1,16 @@
+dataset:
+  name: "nielsr/breast-cancer"
+  split: "train"
+
+model:
+  name: "facebook/sam-vit-base"
+
+training:
+  batch_size: 1
+  epochs: 20
+  lr: 0.00001
+  weight_decay: 0.0
+
+output:
+  model_dir: "./sam_finetuned"
+  loss_plot_path: "./TRAIN_LOSS.png"

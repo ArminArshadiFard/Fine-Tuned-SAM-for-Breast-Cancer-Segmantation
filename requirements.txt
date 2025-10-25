@@ -1,0 +1,9 @@
+git+https://github.com/huggingface/transformers
+datasets
+monai
+torch
+torchvision
+numpy
+Pillow
+matplotlib
+tqdm
